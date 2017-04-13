@@ -3,7 +3,10 @@ package tv;
 /**
  * Created by RENT on 2017-04-12.
  */
-public class RegularTV extends DiviceWithDisplay {
-}
+public class RegularTV extends TV {
 
-    public boolean isConfigurable(){}
+    public boolean isConfigurable() {
+        return true;
+    }
+
+}
